@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    height: 60vh;
+    background-image: url(./asset/hero.png);
+}
