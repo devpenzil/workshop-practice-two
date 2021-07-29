@@ -14,3 +14,6 @@ body{
 .cover{
     background-color: rgba(0, 0, 0, 0.4);
 }
+.hr{
+   stroke-width: 3px;
+}
