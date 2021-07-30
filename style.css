@@ -22,3 +22,48 @@ body{
 .footer{
     background-color: #0D1B1E;
 }
+
+
+.filterDiv {
+    float: left;
+    background-color: #e7eef3;
+    color: #000000;
+    width: 300px;
+    padding: 20px 20px;
+    text-align: center;
+    margin: 2px;
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container-f {
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border-bottom: 3px solid black;
+    border-radius: 0px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #FEF5E5;
+    color: rgb(228, 183, 36);
+  }
+  .filter{
+      background-color: #F8F8F8;
+      
+  }
