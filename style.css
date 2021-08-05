@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 body{
   font-family: 'Nunito', sans-serif;
 }
 /* Hero */
 .hero{
-  position: absolute;
+  
   width: 100%;
   height: 400px;
   left: 0px;
@@ -53,10 +54,8 @@ body{
   margin-top: 60px;
 }
 .search-card{
-  /* position: absolute; */
   width: 846px;
   height: 66px;
-  /* left: 297px; */
   top: 245px;
   background: #FFFFFF;
   box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.25);
@@ -64,3 +63,176 @@ body{
 }
 
 /* Hero close  */
+/* ----------------------------------------------------------------------- */
+/* premium-projects */
+.premium-projects{
+  margin-top: 73px;
+  
+}
+.home-card{
+  border-radius: 12px;
+  border: none;
+  min-width: 411px;
+  min-height: 441px;
+  margin-top: 24px;
+}
+.home-card:hover{
+  box-shadow: 0px 0px 8px rgba(58, 57, 57, 0.24);
+}
+.card-title{
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 24px;
+}
+.card-text{
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-top: 24px;
+
+}
+.card-text-second{
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin-top: 8px;
+
+}
+.card-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.card-price{
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+.card-button{
+  height: 38px;
+  width: 118px;
+  border-radius: 2px;
+  padding: 12px, 20px, 12px, 20px;
+  background: #FCE7E7;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #E53935;
+}
+.card-button:hover{
+  background-color: #E53935;
+  color: white;
+}
+.sale-label{
+  position:absolute;
+  height: 30px;
+  width: 66px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FDF4EF;
+  border-radius: 0px 0px 8px 8px;
+  padding: 8px, 16px, 8px, 16px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #E57B35;
+}
+.premium-label{
+  position:absolute;
+  height: 30px;
+  width: 30px;
+  right: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #EB9F24;
+  border-radius: 0px 0px 8px 8px;
+  padding: 8px, 16px, 8px, 16px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+.heart-label{
+  position:absolute;
+  height: 28px;
+  width: 28px;
+  right: 32px;
+  top: 207px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 8px, 16px, 8px, 16px;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  color: #BCBCBC;
+}
+.project-heading{
+  margin-top: 73px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-heading h3{
+  font-family: Nunito;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  text-align: center;
+
+}
+.project-heading .hr{
+  width: 80px;
+  height: 6px;
+  border-radius: 10px;
+  margin-top: 10px;
+  background-image: linear-gradient(to right, rgb(77, 83, 77) 50%,red 50%);
+}
+.project-heading p{
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 35px;
+  color: #626262;
+
+
+}
+/* premium-projects */
+/* -------------------------------------------------------------------------- */
