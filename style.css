@@ -160,6 +160,7 @@ body{
   font-style: normal;
   font-weight: 600;
   color: #E57B35;
+  cursor: pointer;
 }
 .premium-label{
   position:absolute;
@@ -177,6 +178,7 @@ body{
   font-style: normal;
   font-weight: 600;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .heart-label{
   position:absolute;
@@ -195,6 +197,7 @@ body{
   font-style: normal;
   font-weight: 600;
   color: #BCBCBC;
+  cursor: pointer;
 }
 .project-heading{
   margin-top: 73px;
@@ -231,8 +234,24 @@ body{
   text-align: center;
   margin-top: 35px;
   color: #626262;
-
-
+}
+.load-more{
+  height: 42px;
+  width: 116px;
+  border-radius: 2px;
+  padding: 14px, 24px, 14px, 24px;
+  background: #FEF5E5;
+  border: 1px solid #EB9F24;
+  box-sizing: border-box;
+  font-family: Nunito;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #EB9F24;
+  margin-top:48px;
 }
 /* premium-projects */
 /* -------------------------------------------------------------------------- */
