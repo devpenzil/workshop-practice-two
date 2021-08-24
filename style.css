@@ -4,7 +4,37 @@
 body{
   font-family: 'Nunito', sans-serif;
 }
+.container{
+  margin: auto;
+}
 /* Hero */
+.create-account{
+  background-color:#626262;
+  color: white;
+}
+.create-account span{
+  color: white;
+  font-size: 10px;
+}
+.create-account .cr{
+  font-size: 15px;
+  color: white;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px 10px;
+  margin: 0;
+  text-align: right;
+}
+.navbar {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar .container-fluid{
+  padding: 0px;
+}
 .hero{
   
   width: 100%;
@@ -452,7 +482,7 @@ body{
   color: #ffffff;
 }
 .hr{
-  width: 1280px;
+  width: 100%;
   height: 1px;
   background-color: #ffffff;
   margin-top: 36px;
